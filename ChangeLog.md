@@ -31,17 +31,31 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 ### Added
 ### Removed
 
-## [0.0.0.1] - 2017-11-25
+## [0.0.0.2] - 2017-11-26
 ### Changed
+* layout system
+
 ### Fixed
+* Navbar
+* Bootstrap 4 Scripts
+
+### Added
+- Navbar fixed top
+- Footer fixed bottom
+- Assests folder:
+* 13 img to img folder
+
+### Removed
+* [style.css] content
+* [nao.js] content
+
+## [0.0.0.1] - 2017-11-25
 ### Added
 - Firts Commit:
 * Readme
 * ChangeLog
 * License
-- Assests folder:
 * index.html
+- Assests folder:
 * style.css
 * nao.js
-
-### Removed
