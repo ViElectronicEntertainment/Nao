@@ -31,6 +31,14 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 ### Added
 ### Removed
 
+--
+
+## [0.0.0.3] - 2017-11-26
+### Changed
+* Fork of Mosaic by w3 [ https://w3layouts.com/mosaic-entertainment-category-flat-bootstrap-responsive-web-template/ ]
+
+--
+
 ## [0.0.0.2] - 2017-11-26
 ### Changed
 * layout system
@@ -48,6 +56,8 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 ### Removed
 * [style.css] content
 * [nao.js] content
+
+--
 
 ## [0.0.0.1] - 2017-11-25
 ### Added

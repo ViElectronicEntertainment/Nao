@@ -5,7 +5,7 @@
   NAO
   <br>
 </h1>
-<h4 align="center">Bienvenidos a Nao, una plantilla para paginas web que usa los frameworks mas poderosos a la fecha, facil de instalar, editar y configurar</h4>
+<h4 align="center">Bienvenidos a Nao, una plantilla para paginas web Minimalista y facil de instalar, editar y configurar</h4>
 <p align="center">
   <a href="https://github.com/velosergio/Nao/releases">
   <img src="https://img.shields.io/badge/Version-0.0.0.2-yellow.svg?style=for-the-badge" alt="Version"></a>
@@ -29,11 +29,17 @@
 
 Artista colombiana que fusiona generos musicales tradicionales con ritmos, texturas y sabores modernos y contemporaneos, al igual que nao queremos fusionar para crear increibles proyectos que puedas usar encualquier proyecto.
 
+*_Mosaic_*
+
+Template de W3
+
 ## Tecnologias usadas
 
 * Bootstrap 4 beta 2
 * jQuery 3.2.1
 * Font Awesome 4.7
+* MediaElementsJs 4.2.7
+* Normalize 7
 
 #### License
 
