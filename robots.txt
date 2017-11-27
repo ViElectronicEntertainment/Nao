@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: http://naomartinez.com/sitemap.xml

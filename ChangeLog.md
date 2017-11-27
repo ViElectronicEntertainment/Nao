@@ -33,6 +33,23 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 
 --
 
+## [0.0.0.4] - 2017-11-27
+### Changed
+- Font Awesome update 7 now for CDN 
+
+### Fixed
+- Banner
+- Sidebar
+
+### Added
+- [Pienso en ti, Nadando en tus recuerdos, La bestia] graphic resources added in /images
+
+### Removed
+- Font Awesome local distribution
+- Unused code
+
+--
+
 ## [0.0.0.3] - 2017-11-26
 ### Changed
 * Fork of Mosaic by w3 [ https://w3layouts.com/mosaic-entertainment-category-flat-bootstrap-responsive-web-template/ ]

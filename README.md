@@ -8,7 +8,7 @@
 <h4 align="center">Bienvenidos a Nao, una plantilla para paginas web Minimalista y facil de instalar, editar y configurar</h4>
 <p align="center">
   <a href="https://github.com/velosergio/Nao/releases">
-  <img src="https://img.shields.io/badge/Version-0.0.0.2-yellow.svg?style=for-the-badge" alt="Version"></a>
+  <img src="https://img.shields.io/badge/Version-0.0.0.4-yellow.svg?style=for-the-badge" alt="Version"></a>
   <a href="https://github.com/velosergio/Nao/issues">
   <img src="https://img.shields.io/badge/buildstatus-production-yellow.svg?style=for-the-badge" alt="build status"></a>
   <a href="https://facebook.com/BlinterUniverse/">
