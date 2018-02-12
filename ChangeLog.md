@@ -33,6 +33,31 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 
 --
 
+## [0.0.0.6] - 2018-02-12
+
+### Added
+- NPM Support
+-- Bootstrap
+-- Popper
+-- jQuery
+-- FontAwesome
+
+--
+
+## [0.0.0.5] - 2017-12-14
+### Changed
+- jQueryCDN
+
+### Fixed
+- 
+### Added
+-Test.html para pruebas con Bootstrap 4
+
+### Removed
+- 
+
+--
+
 ## [0.0.0.4] - 2017-11-27
 ### Changed
 - Font Awesome update 7 now for CDN 

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nao Martinez | Pruebas</title>
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Robots File -->
+    <meta name="robots" content="index, follow">
+    <!-- Metadata SEO-->
+    <meta name="keywords" content="Porro, Jazz, Musica, Cantante, Sincelejo, Fusion, Cultura, Arte, Sucre, Colombia" />
+    <!-- Descripcion -->
+    <meta name="description" content="Nao Martinez, Cantautora colombiana de fusiones del Porro y el Jazz">
+    <!-- Favicon -->
+    <link rel="icon" href="../favicon.ico">
+    <!-- Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+    <!-- MediaElements -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.7/mediaelement-and-player.min.js" integrity="sha256-sD8dKWfj2n5RbQ/seNDEripkHCcw7MN6XxnV4Rs3JCk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.7/mediaelementplayer.css" integrity="sha256-ptI4zjdjFWW6uxt91GZAG4Q5JcbEYOgEnyeJRzUzh28=" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand">Nao Martinez</a>
+            <div class="row float-right">
+                <!--audio-->
+                <div class="col-6 audio-player">
+                    <audio id="audio-player" controls="controls">
+                        <source src="../media/Bestia.ogg" type="audio/ogg"></source>
+                        <source src="../media/Bestia.mp3" type="audio/mpeg"></source>
+                        <source src="../media/Nadando.ogg" type="audio/ogg"></source>
+                        <source src="../media/Nadando.mp3" type="audio/mpeg"></source>
+                    </audio>
+                    <!--Audio Scripts-->
+                    <script type="text/javascript">
+                    (function() {
+                        $('#audio-player').mediaelementplayer({
+                            alwaysShowControls: true,
+                            features: ['playpause', 'progress', 'volume'],
+                            audioVolume: 'horizontal',
+                            iPadUseNativeControls: true,
+                            iPhoneUseNativeControls: true,
+                            AndroidUseNativeControls: true
+                        });
+                    });
+                    </script>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!--Content-->
+    <div class="container">
+        <p>Aliquip id irure commodo enim excepteur amet officia commodo dolor nulla enim commodo laborum esse anim laborum incididunt eiusmod pariatur minim veniam enim anim ut ut esse in sunt eu enim in tempor deserunt veniam anim sit proident aute nulla in anim ut dolor irure tempor dolor dolore adipisicing est eu esse deserunt officia minim officia nisi sunt labore adipisicing amet ut reprehenderit nisi do eiusmod do sed in dolore voluptate mollit enim minim ut excepteur proident sed non exercitation fugiat magna nulla culpa eu ut ut consectetur dolore dolor dolor aliqua veniam elit occaecat culpa cillum incididunt sunt ut ullamco in incididunt ut dolore veniam tempor qui proident cillum in in quis minim enim cillum exercitation ad tempor in occaecat adipisicing labore aute magna pariatur laboris sunt ut occaecat reprehenderit anim adipisicing aute aliquip anim sit tempor in in laborum dolor sunt dolor dolor dolore in in mollit sit dolor magna eiusmod est laboris cupidatat enim cillum duis duis magna consectetur reprehenderit nisi proident amet sit cillum qui culpa cupidatat mollit veniam eu irure culpa non occaecat ut mollit in culpa amet veniam et ex eu magna fugiat tempor aliquip.</p>
+        <p>Aliquip id irure commodo enim excepteur amet officia commodo dolor nulla enim commodo laborum esse anim laborum incididunt eiusmod pariatur minim veniam enim anim ut ut esse in sunt eu enim in tempor deserunt veniam anim sit proident aute nulla in anim ut dolor irure tempor dolor dolore adipisicing est eu esse deserunt officia minim officia nisi sunt labore adipisicing amet ut reprehenderit nisi do eiusmod do sed in dolore voluptate mollit enim minim ut excepteur proident sed non exercitation fugiat magna nulla culpa eu ut ut consectetur dolore dolor dolor aliqua veniam elit occaecat culpa cillum incididunt sunt ut ullamco in incididunt ut dolore veniam tempor qui proident cillum in in quis minim enim cillum exercitation ad tempor in occaecat adipisicing labore aute magna pariatur laboris sunt ut occaecat reprehenderit anim adipisicing aute aliquip anim sit tempor in in laborum dolor sunt dolor dolor dolore in in mollit sit dolor magna eiusmod est laboris cupidatat enim cillum duis duis magna consectetur reprehenderit nisi proident amet sit cillum qui culpa cupidatat mollit veniam eu irure culpa non occaecat ut mollit in culpa amet veniam et ex eu magna fugiat tempor aliquip.</p>
+    </div>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
+</html>
